@@ -1,5 +1,5 @@
 # microkube
-Setup Rubykube Microkube Server
+
 Server request Ubuntu 18.10 x64
 Minimum for test 8G of RAM, SSD 120G, 4 CPUs
 
