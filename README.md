@@ -51,11 +51,11 @@ cd config
 sudo nano app.yml
 
 Change images:
-rubukube/peatio:---------2.2.3 
-rubukube/barong:---------2.2.2	  
-rubukube/mikroapp:-------0.1.5  
-rubukube/tower:----------0.1.17
-rubukube/arke:-----------0.1.10
+rubukube/peatio: 2.2.3 
+rubukube/barong: 2.2.2	  
+rubukube/mikroapp: 0.1.5  
+rubukube/tower: 0.1.17
+rubukube/arke: 0.1.10
 
 rake -T
 rake service:all
