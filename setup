@@ -2,6 +2,9 @@ Server request Ubuntu 18.10 x64
 Minimum for test 8G of RAM, SSD 120G, 4 CPUs
 
 su - root
+[
+netstat -nlpt |grep 3306
+service mysql stop
 
 sudo apt update
 sudo apt upgrade
@@ -49,8 +52,6 @@ gem install bundler
 gem uninstall bundler
 gem install bundler -v 1.17.3
 bundle
-nano /home/test/microkube/lib/tasks/db.rake
-Change port: 3306 -> 3307
 
 cd config
 sudo nano app.yml
